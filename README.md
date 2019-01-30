@@ -36,4 +36,4 @@ Extras :
 
 - Added login by google oAuth as an extra feature which was not required but essential
 
-Made with <3 by Shashwat Goyal
+Made with <3 by Apoorv Singh
