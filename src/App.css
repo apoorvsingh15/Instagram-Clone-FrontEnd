@@ -1,0 +1,221 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hidden {
+  display: none;
+}
+
+.blue {
+  background-color: blue;
+}
+.profileContainer {
+  background-color: #fafafa;
+  padding-top: 2%;
+}
+
+.modifyNav {
+  background-color: white !important;
+  margin-bottom: 0;
+}
+
+.logoCenter {
+  padding-top: 23px;
+  font-family: "Permanent Marker", cursive;
+}
+.topHeaderFlex {
+  display: flex;
+}
+
+.profileImage {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: center;
+}
+.userVerified {
+  display: flex;
+  margin-top: 15%;
+}
+
+.verifieDesign {
+  align-self: center;
+  background-color: blue;
+  border-radius: 50%;
+  padding: 3px;
+  color: white;
+}
+
+.userFont {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 3px;
+  padding-right: 4px;
+}
+
+.staticData {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-around;
+}
+
+.boldText {
+  font-weight: 800;
+}
+
+.right {
+  padding-right: 10px;
+}
+
+.cardImage {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.commentFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cursor {
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.font {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 2px;
+  padding: 5px;
+}
+.dropzone {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-width: 2px;
+  border-color: rgb(102, 102, 102);
+  border-style: dashed;
+  border-radius: 5px;
+}
+
+.dropzone-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.singlePostImage {
+  width: 100%;
+  text-align: center;
+}
+
+.commentUserFlex {
+  display: flex;
+}
+
+.centeredCommentBtn {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.leftMargin {
+  margin-left: 20px;
+}
+
+.smallerText {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.actualComment {
+  margin: 0;
+}
+
+.date {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.postBtn {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.red {
+  color: red;
+}
+.cancelBtn {
+  margin-right: 10px;
+}
+
+.loginLogo {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 3px;
+  text-shadow: 5px 5px #c5bebe;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .profileImage {
+    height: 76px;
+    width: 76px;
+  }
+
+  .pull-right {
+    float: none !important;
+    text-align: center;
+  }
+  .responsive {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
