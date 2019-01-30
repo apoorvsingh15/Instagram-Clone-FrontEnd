@@ -1,6 +1,6 @@
 # Image-Sharing Application
 
-This application is made in vanilla react, not using redux for state management. The power of react has been implemented in the application.
+This application is made in vanilla react, not using redux for state management. The power of react has been implemented in the application. Find the project [here](https://image-sharing-observe-ai.herokuapp.com)
 
 ## Installation and Running the project
 
