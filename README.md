@@ -37,3 +37,5 @@ Extras :
 - Added login by google oAuth as an extra feature which was not required but essential
 
 Made with <3 by Apoorv Singh
+
+NOTE: A great dummy project for students wanting to copy paste stuff for their sem activities :p Cheers!!
